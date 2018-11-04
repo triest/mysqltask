@@ -1,0 +1,1 @@
+SELECT MAX(u.score), u.email, c.name FROM users u INNER JOIN companies c on u.company_id=c.id GROUP by u.company_id
